@@ -9,7 +9,6 @@ import Foundation
 import AVFoundation
 
 class SoundManager {
-    
     var audioPlayer: AVAudioPlayer?
     
     enum SoundEffect {
@@ -20,7 +19,6 @@ class SoundManager {
     }
     
     func playSound(effect: SoundEffect) {
-        
         var soundFilename = ""
         
         switch effect {
